@@ -91,25 +91,32 @@ export default function Home() {
             </nav>
             <div className={styles.headerActions}>
               <ThemeToggle />
-              <Button className={styles.desktopOnly} isGradient>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className={styles.buttonIcon}
-                >
-                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
-                  <polyline points="7 10 12 15 17 10"></polyline>
-                  <line x1="12" y1="15" x2="12" y2="3"></line>
-                </svg>
-                Download Resume
-              </Button>
+              <a 
+                href="https://drive.google.com/file/d/1s28YdXv-nh1mEOOrPgEzpoeS340gWKaq/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.buttonLink}
+              >
+                <Button className={styles.desktopOnly} isGradient>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className={styles.buttonIcon}
+                  >
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="7 10 12 15 17 10"></polyline>
+                    <line x1="12" y1="15" x2="12" y2="3"></line>
+                  </svg>
+                  Download Resume
+                </Button>
+              </a>
               <button className={styles.mobileMenuButton} onClick={toggleMobileMenu}>
                 {isMobileMenuOpen ? (
                   <svg
@@ -971,7 +978,7 @@ export default function Home() {
                   <h3 className={styles.socialTitle}>Connect With Me</h3>
                   <div className={styles.socialIcons}>
                     <a 
-                      href="https://www.linkedin.com/in/saadrehman17100/"
+                      href="https://www.linkedin.com/in/aysha-amin-4231b4254/"
                       target="_blank"
                       rel="noopener noreferrer" 
                       className={styles.socialIcon}
@@ -994,7 +1001,7 @@ export default function Home() {
                     </a>
 
                     <a 
-                      href="https://www.instagram.com/saad_rehman76/"
+                      href="https://www.instagram.com/aysha_amin180/"
                       target="_blank"
                       rel="noopener noreferrer" 
                       className={styles.socialIcon}
@@ -1017,7 +1024,7 @@ export default function Home() {
                     </a>
 
                     <a 
-                      href="https://www.facebook.com/saadrehman17100/"
+                      href="https://www.facebook.com/ayesha.romass.3/"
                       target="_blank"
                       rel="noopener noreferrer" 
                       className={styles.socialIcon}
