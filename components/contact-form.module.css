@@ -1,0 +1,59 @@
+.formWrapper {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  padding: 2rem;
+  box-shadow: var(--shadow);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.formRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.formLabel {
+  font-weight: 500;
+}
+
+.formInput,
+.formTextarea {
+  padding: 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--input-bg);
+  color: var(--text);
+}
+
+.formButton {
+  width: 100%;
+}
+
+.successMessage {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border-radius: var(--radius);
+  background: hsl(142, 76%, 36%);
+  color: white;
+  text-align: center;
+}
+
+.errorMessage {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border-radius: var(--radius);
+  background: hsl(0, 84%, 60%);
+  color: white;
+  text-align: center;
+} 

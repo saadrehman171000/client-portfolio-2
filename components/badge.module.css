@@ -1,0 +1,39 @@
+.badge {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 9999px;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1;
+    padding: 0.35rem 0.75rem;
+    transition: all 0.2s;
+    letter-spacing: 0.025em;
+  }
+  
+  .default {
+    background-color: var(--primary);
+    color: white;
+  }
+  
+  .secondary {
+    background-color: var(--secondary);
+    color: white;
+  }
+  
+  .accent {
+    background-color: var(--accent);
+    color: white;
+  }
+  
+  .outline {
+    background-color: transparent;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+  }
+  
+  .gradient {
+    background: linear-gradient(to right, var(--gradient-start), var(--gradient-end));
+    color: white;
+  }
+  
+  

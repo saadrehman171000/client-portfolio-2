@@ -1,0 +1,62 @@
+.card {
+    border-radius: var(--radius);
+    background-color: var(--card);
+    color: var(--card-foreground);
+    border: 1px solid var(--border);
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .hoverable:hover {
+    box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+  }
+  
+  .dark .hoverable:hover {
+    box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .glass {
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .dark .glass {
+    background-color: rgba(15, 41, 66, 0.7);
+    border: 1px solid rgba(30, 41, 59, 0.5);
+  }
+  
+  .cardHeader {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 1.5rem 0.5rem 1.5rem;
+  }
+  
+  .cardTitle {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    transition: color 0.3s ease;
+  }
+  
+  .hoverable:hover .cardTitle {
+    color: var(--primary);
+  }
+  
+  .cardDescription {
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+  }
+  
+  .cardContent {
+    padding: 1rem 1.5rem;
+  }
+  
+  .cardFooter {
+    padding: 0.5rem 1.5rem 1.5rem 1.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  
