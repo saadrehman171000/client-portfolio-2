@@ -910,7 +910,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h3 className={styles.contactItemTitle}>Email</h3>
-                      <p className={styles.contactItemText}>ayeshaamin@gmail.com</p>
+                      <p className={styles.contactItemText}>ayshaamin890@gmail.com</p>
                     </div>
                   </div>
                   <div className={styles.contactItem}>
